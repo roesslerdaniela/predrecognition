@@ -25,7 +25,7 @@ library(svglite) #create svg files
 ## Load data
 
 ```{r loading}
-master <- read.csv("C:/Users/roess/Desktop/Publications/PredRecognition/Supplements/dlcdata.csv")
+master <- read.csv("-----------/dlcdata.csv")
 #create factors
 master$trial <- as.factor(master$trial)
 master$day <- as.factor(master$day)
